@@ -7,6 +7,9 @@ body {
   font-variation-settings:
     "wdth" 100;
 }
+main{
+    background-color: #f5f8ff;
+}
 *{
     margin: 0;
     padding: 0;
@@ -21,6 +24,7 @@ body {
     padding: 12px 36px;
     border-radius: 10px;
     cursor: pointer;
+    border: none;
 }
 
 
@@ -31,7 +35,7 @@ header{
 }
 .header{
     text-align: center;
-    margin-top: 158px;
+    padding-top: 158px;
     padding-bottom: 152px;
 }
 nav{
@@ -58,9 +62,11 @@ nav h3{
     display: flex;
     gap: 220px;
     max-width: 1140px;
-    margin: 116px auto;
+    margin: 0 auto;
     height: 328px;
     align-items: center;
+    padding-top: 116px;
+    margin-bottom: 116px;
 }
 
 .first-section-header{
@@ -171,4 +177,79 @@ nav h3{
 }
 .date{
     color: #B3B3B3;
+}
+
+
+.fifth-section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    height: 632px;
+    margin: 0 auto;
+    gap: 50px;
+    align-items: center;
+}
+.fifth-section-header{
+    font-size: 90px;
+    font-weight: bold;
+    color: #000000;
+}
+form label{
+    display: block;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+form input, form textarea{
+    margin-bottom: 19px;
+}
+form textarea{
+    display: block;
+    padding: 20px 32px;
+    width: 497px;
+    font-size: 20px;
+    height: 135px;
+}
+form input[type="text"], form input[type="email"] {
+    display: block;
+    padding: 20px 32px;
+    width: 497px;
+    height: 70px;
+    font-size: 20px;
+}
+form input, form textarea{
+    border-radius: 10px;
+    border: none;
+    background-color: #4d47ff0c;
+}
+.strech-btn{
+    width: 100%;
+}
+
+
+footer{
+    text-align: center;
+    margin: 104px;
+}
+.footer-logo{
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: 8px;
+}
+.footer-description{
+    color: #8987A1;
+    max-width: 530px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.footer-links{
+    display: flex;
+    max-width: 530px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #8987A1;
 }

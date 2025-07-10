@@ -10,6 +10,7 @@ body {
 *{
     margin: 0;
     padding: 0;
+    /* background: linear-gradient(rgba(77, 71, 255, 0.016), rgba(0, 0, 0, 0)); */
 }
 
 
@@ -19,6 +20,7 @@ body {
     font-size: 16px;
     padding: 12px 36px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 
@@ -49,4 +51,34 @@ nav h3{
     font-weight: bold;
     color: #252432;
     margin-bottom: 37px;
+}
+
+
+.first-section{
+    display: flex;
+    gap: 220px;
+    max-width: 1140px;
+    margin: 116px auto;
+    height: 328px;
+    align-items: center;
+}
+.action-section{
+    
+    
+}
+.first-section-header{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.first-section-description{
+    font-size: 24px;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.first-section-img{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
 }

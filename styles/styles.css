@@ -188,6 +188,7 @@ nav h3{
     margin: 0 auto;
     gap: 50px;
     align-items: center;
+    padding-top: 71px;
 }
 .fifth-section-header{
     font-size: 90px;
@@ -225,6 +226,7 @@ form input, form textarea{
 }
 .strech-btn{
     width: 100%;
+    margin-bottom: 85px;
 }
 
 
@@ -252,4 +254,29 @@ footer{
 .footer-links a{
     text-decoration: none;
     color: #8987A1;
+}
+
+
+.fourth-section{
+    text-align: center;
+    max-width: 1140px;
+    height: 700px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    border-radius: 14px;
+    margin-bottom: 95px;
+}
+.fourth-section-header{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    padding-top: 71px;
+}
+.fourth-section-description{
+    color: #252432;
+    margin: 20px;
+}
+.fourth-section img{
+    padding-top: 20px;
+    border-radius: 48px;
 }
